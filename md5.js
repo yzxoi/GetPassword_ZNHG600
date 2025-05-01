@@ -298,7 +298,7 @@ function getPassword()
       console.log(i+"/99999999");
     }
     var result = hex_md5(name);
-    if (result=="")
+    if (result=="0cc5c43aef7fe21a210e89074be296fa")
     {
       console.log(name);
       break;
